@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #111827;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    margin-top: 80px;
+}
+
+form{
+    width: 650px;
+    height: 50px;
+    margin-top: 80px;
+    border: 2px solid rgba(71, 70, 70, 0.3);
+    border-radius: 15px;
+    position: relative;
+}
+
+input{
+    width: 480px;
+    height: 20px;
+    font-size: 18px;
+    background-color: #111827;
+    color: white;
+    border: 0 none;
+    font-weight: 600;
+    position: absolute;
+    left: 11%;
+    top: 30%;
+}
+
+input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.add{
+    width: 35px;
+    height: 35px;
+    margin-right: 13px;
+    margin-top: 7px;
+    background-color: #e177f7;
+    font-size: 25px;
+    border-radius: 13px;
+    color: #111827;
+    border: 0 none;
+    font-weight: 600;
+    padding: 4px;
+    position: absolute;
+    left: 2%;
+}
+
+.container-tasks{
+    width: auto;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.task{
+    width: 650px;
+    height: 36px;
+    background-color: rgba(31,41,55, 0.9);
+    margin-top: 15px;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 7px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.taskText{
+    width: 73%;
+    /* border: 1px solid white; */
+    margin-top: 4px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.edit{
+    width: 35px;
+    height: 35px;
+    color: #e177f7;
+    border: 0 none;
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(31,41,55, 0.5);
+    right: 7%;
+    top: 18%;
+    position: absolute;
+    /* opacity: 0;
+    visibility: hidden; */
+}
+
+.save{
+    width: 35px;
+    height: 35px;
+    color: #e177f7;
+    border: 0 none;
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(31,41,55, 0.5);
+    position: absolute;
+    right: 12.7%;
+    top: 19%;
+}
+
+/* .task:hover .edit{
+    visibility: visible;
+    opacity: 1;
+} */
+
+.delet{
+    width: 35px;
+    height: 35px;
+    color: #e177f7;
+    border: 0 none;
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(31,41,55, 0.5);
+    /* border: 1px solid white; */
+    top: 18%;
+    position: absolute;
+    left: 93%;
+    /* opacity: 0; */
+    /* visibility: hidden; */
+}
+
+/* .task:hover .delet{
+    visibility: visible;
+    opacity: 1;
+} */
+
+.check{
+    width: 20px;
+    height: 20px;
+    background:#ccc;
+    position: absolute;
+}
+
+.task input{
+    cursor: pointer;
+    position: absolute;
+    left: 2%;
+    top: 29%;
+}
+
+.riskMark{
+    text-decoration: line-through;
+    text-decoration-style: solid;
+    text-decoration-color:black;
+    opacity: 0.5;
+}
+
+.taskTodo{
+    width: 73%;
+    margin-left: 40px;
+    background-color: rgba(31,41,55, 0.5);
+}
